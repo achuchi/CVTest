@@ -1,0 +1,66 @@
+body {
+    background-color: #FAF8F1;
+
+
+}
+h1 {
+    color: #C58940;
+}
+
+h3 {
+    color: #C58940;
+}
+
+hr {
+    border-style: hidden;
+    border-color: #E5BA73;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 10%;
+    background-color: #FAF8F1;
+
+}
+
+a:hover {
+    color: red;
+}
+
+#AidanPortait {
+    width: 150px;
+    border-radius: 100%;
+    height:auto;
+}
+/*****************************************OVERLAY DATA********************************************/
+.container {
+    position: relative;
+    width: 100%;
+    border-radius:100%;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #E5BA73;
+    border-radius: 100%;
+}
+
+.container:hover .overlay {
+    opacity: .75;
+}
+
+#PortraitText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ /*******************************************OVERLAY DATA END****************************************/
